@@ -1,0 +1,137 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    background-color: #ffffff;
+    /* Adjust background color as needed */
+    color: #ffffff;
+    /* Adjust text color as needed */
+}
+
+/* Logo styles */
+.logo-container {
+    flex: 1;
+    /* Logo takes up available space on the left */
+}
+
+.logo {
+    width: 170px;
+    /* Adjust logo width as needed */
+    height: auto;
+}
+
+.login-button,
+.signup-button {
+    padding: 10px 20px;
+    background: #ffffff;
+    color: #3864B3;
+    border: 2px solid;
+    border-image: linear-gradient(90deg, #3864B3 0%, #2F5597 31%, #e9288f 83%);
+    border-image-slice: 1;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background 0.3s ease, color 0.3s ease, border-image 0.3s ease;
+}
+
+/* Navbar.css */
+.login-button {
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.login-button:hover,
+.signup-button:hover {
+    background: #ffffff;
+    color: #3864B3;
+    border: 2px solid;
+    border-image: linear-gradient(270deg, #3864B3 0%, #2F5597 31%, #e9288f 83%);
+    border-image-slice: 1;
+
+    /* Add this line to make the text bold on hover */
+}
+
+/* Login button styles */
+/* Login button styles */
+/* NavbarButtons.css */
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Dropdown styles */
+/* ... Your existing styles ... */
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: 'Barlow', sans-serif;
+    /* Add this line to set the font to Barlow */
+    font-weight: bold;
+    /* Add this line to make the text bold */
+    color: #3864B3;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.icon {
+    width: 25px;
+    /* Adjust the width as needed */
+    height: 16px;
+    /* Adjust the height as needed */
+    margin-right: 8px;
+    /* Adjust the margin as needed */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* NavbarLinks.css */
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0px;
+    /* Adjust margin as needed */
+}
+
+.navbar-link {
+    color: rgb(20, 98, 143);
+    font-family: 'Barlow', sans-serif;
+    /* Add Barlow font or adjust the font as needed */
+
+    /* Make the text a little bold */
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+    /* Add smooth transition for color */
+}
+
+.navbar-link:hover {
+
+    color: linear-gradient(90deg, #3864B3 0%, #2F5597 31%, #EC73FF 83%);
+    /* Apply the specified gradient on hover */
+}
