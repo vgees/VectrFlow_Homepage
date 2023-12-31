@@ -90,8 +90,8 @@ function SignIn() {
                             <Button
                                 className="Button-google"  // Add the class name
                                 fullWidth
-                                variant="contained"
-                                sx={{ mt: 1, mb: 2 }}
+                                variant="outlined"
+                                sx={{ mt: 1, mb: 2, borderRadius: '20px', padding: '15px 30px', height: 'auto', lineHeight: 'normal' }}
                                 onClick={handleLoginGoogle}
                                 startIcon={<img src={googleIcon} alt="Google Icon" className="icon" />}
                             >
@@ -101,8 +101,8 @@ function SignIn() {
                             <Button
                                 className="Button-github"  // Add the class name
                                 fullWidth
-                                variant="contained"
-                                sx={{ mt: 1, mb: 2 }}
+                                variant="outlined"
+                                sx={{ mt: 1, mb: 2, borderRadius: '20px', padding: '15px 30px', height: 'auto', lineHeight: 'normal' }}
                                 onClick={handleLoginGithub}
                                 startIcon={<img src={githubIcon} alt="GitHub Icon" className="icon" />}
                             >
