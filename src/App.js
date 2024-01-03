@@ -37,7 +37,7 @@ const App = () => (
             Let’s get started!
           </Link>
         </div>
-        <div className="additional-text">
+        <div className="card-main-title">
           A SaaS based low code ETL pipeline for creating high-quality vector
           embedding<br /> of unstructured data to build Generative AI
           applications.
@@ -58,11 +58,11 @@ const App = () => (
       <div className="frame-53">
         <div className="way-building-details">
           <div className="frame-47">
-            <div className="build-the-right-team-to-scale">Build</div>
+            <div className="build-the-right-team-to-scale"></div>
             <div className="frame-48">
-              <div className="finding-the-right-talent-is-not-easy-we-help-you-find-the-talent-that-suits-your-needs-follows-your-processes-and-sticks-with-you-long-term-not-the-case-with-freelancers">
-                Automate processes by drag and dropping AI models, data loaders,
-                and plugins.
+              <div className="card-main-title">
+                Simply drag and drop Data Loaders, LLM's, Agents,
+                Chat Models, Vector Stores etc to build Gen AI Apps
               </div>
               <div className="frame-49">
                 <div className="our-delivery-model-helps-you-cut-costs-and-deliver-within-budget"></div>
@@ -91,8 +91,8 @@ const App = () => (
                 Low code drag and drop functionality is a user-friendly
                 development approach that simplifies application creation. It
                 employs a visual interface where users can easily design and
-                build elements by dragging and dropping components onto a
-                canvas. This approach reduces the need for extensive coding,
+                build elements by drag and drop components onto a canvas. 
+                This approach reduces the need for extensive coding,
                 making it accessible to non-developers.
               </span>
             </span>
@@ -202,7 +202,7 @@ const App = () => (
       <div className="rectangle-21"></div>
       <div className="frame-57">
         <div className="group-34">
-          <div className="rectangle-276"></div>
+          <div className="rectangle-275"></div>
         </div>
         <div className="frame-56">
           <div className="card-main-title">

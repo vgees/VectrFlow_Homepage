@@ -55,42 +55,30 @@
 }
 
 .h-1-primary-text-span2 {
-  background-image: linear-gradient(90deg,
-      rgba(56, 100, 179, 1) 0%,
-      rgba(47, 85, 151, 1) 31%,
-      #e9288f 83%);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font: 1000 45px/71px "Inter", sans-serif;
 }
 
 .h-1-primary-text-span3 {
-  background-image: linear-gradient(90deg,
-      rgba(56, 100, 179, 1) 0%,
-      rgba(47, 85, 151, 1) 31%,
-      #e9288f 83%);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font: var(--headings-lite-h-1, 300 45px/71px "Inter", sans-serif);
 }
 
 .h-1-primary-text-span4 {
-  background-image: linear-gradient(90deg,
-      rgba(56, 100, 179, 1) 0%,
-      rgba(47, 85, 151, 1) 31%,
-      #e9288f 83%);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font: 300 50px/68px "Inter", sans-serif;
   /* Reduced font size */
 }
 
 .h-1-primary-text-span5 {
-  background-image: linear-gradient(90deg,
-      rgba(56, 100, 179, 1) 0%,
-      rgba(47, 85, 151, 1) 31%,
-      #e9288f 83%);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font: var(--display-display-dilplay-h-1-bold,
       800 50px/68px "Inter",
@@ -99,11 +87,8 @@
 }
 
 .h-1-primary-text-span6 {
-  background-image: linear-gradient(90deg,
-      rgba(56, 100, 179, 1) 0%,
-      rgba(47, 85, 151, 1) 31%,
-      #e9288f 83%);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font: var(--display-display-dilplay-h-1-bold,
       800 50px/68px "Inter",
@@ -128,41 +113,40 @@
 }
 
 .btn-primary {
-  position: relative;
-  background: rgb(248, 248, 248);
-  border: 2px solid transparent;
-  border-image: linear-gradient(90deg, #3864b3 0%, #2f5597 31%, #e9288f 83%);
-  border-image-slice: 1;
-  border-radius: 0px;
-
-  /* Adjust the border-radius to make the edges round */
-  padding: 19px 30px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
+  padding: 10px 50px;
+  background: #ffffff;
+  color: #E22A90;
+  font-size: larger;
+  border: 2px solid;
+  background-clip: padding-box;
+  border-radius: 20px;
   cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  box-shadow: var(--btn-shadow-box-shadow, 0px 4px 49px 0px rgba(0, 0, 0, 0.15));
-  color: #3f3fe1;
-  /* Set the font color to white */
-  background-clip: text;
+  transition: background 0.3s ease, color 0.3s ease, border-image 0.3s ease;
 }
 
 .btn-primary:hover {
+  padding: 10px 50px;
   background: #ffffff;
-  color: #3864B3;
+  color: #ffffff;
+  font-size: larger;
   border: 2px solid;
-  border-image: linear-gradient(270deg, #3864B3 0%, #2F5597 31%, #e9288f 83%);
-  border-image-slice: 1;
+  background-image: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
+  background-clip: padding-box;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease, border-image 0.3s ease;
 }
 
 .let-s-get-started {
-  color: var(--gray-gray-50, #3864B3);
+  color: var(--gray-gray-50, #E22A90);
   text-align: left;
   font: var(--button-text-btn-lg, 600 14px/14px "Inter", sans-serif);
   position: relative;
+  transition: color 0.3s ease;
+}
+
+.let-s-get-started:hover {
+  color: #FFFFFF; 
 }
 
 .hero-wrapper-image {
@@ -191,7 +175,7 @@
 }
 
 .heading-h-2-left4 {
-  font-family: "Barlow` , sans-serif;";
+  font-family: "Inter` , sans-serif;";
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -202,11 +186,8 @@
   top: 1090px;
   font-weight: bold;
   font: 1000 31px/71px "Inter", sans-serif;
-  background-image: linear-gradient(90deg,
-      rgba(56, 100, 179, 1) 0%,
-      rgba(47, 85, 151, 1) 31%,
-      #e9288f 83%);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -252,7 +233,7 @@
 }
 
 .build-the-right-team-to-scale {
-  font-family: "Barlow";
+  font-family: "Inter";
   color: var(--gray-gray-900, #1a202c);
   text-align: center;
   font: var(--headings-headings-h-3, 600 28px/136.02% "Inter", sans-serif);
@@ -270,7 +251,7 @@
 }
 
 .finding-the-right-talent-is-not-easy-we-help-you-find-the-talent-that-suits-your-needs-follows-your-processes-and-sticks-with-you-long-term-not-the-case-with-freelancers {
-  font-family: 'Barlow', sans-serif !important;
+  font-family: 'Inter', sans-serif !important;
   font-weight: bold !important;
   color: #4b4b4b;
   /* RGB value for rgb(75, 75, 75) */
@@ -357,14 +338,7 @@
 }
 
 .rectangle-27 {
-  background: linear-gradient(225deg,
-      rgba(56, 100, 179, 1) 0%,
-      /* Color: #3864B3 */
-      rgba(47, 85, 151, 1) 31%,
-      /* Color: #2F5597 */
-      #e9288f 83%
-      /* Color: #EC73FF */
-    );
+  background: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
   border-radius: 10px;
   width: 59px;
   height: 56px;
@@ -424,14 +398,7 @@
 }
 
 .rectangle-272 {
-  background: linear-gradient(225deg,
-      rgba(56, 100, 179, 1) 0%,
-      /* Color: #3864B3 */
-      rgba(47, 85, 151, 1) 31%,
-      /* Color: #2F5597 */
-      #e9288f 83%
-      /* Color: #EC73FF */
-    );
+  background: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
   border-radius: 10px;
   width: 59px;
   height: 56px;
@@ -466,14 +433,7 @@
 }
 
 .rectangle-273 {
-  background: linear-gradient(225deg,
-      rgba(56, 100, 179, 1) 0%,
-      /* Color: #3864B3 */
-      rgba(47, 85, 151, 1) 31%,
-      /* Color: #2F5597 */
-      #e9288f 83%
-      /* Color: #EC73FF */
-    );
+  background: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
   border-radius: 10px;
   width: 59px;
   height: 56px;
@@ -509,14 +469,7 @@
 }
 
 .rectangle-274 {
-  background: linear-gradient(225deg,
-      rgba(56, 100, 179, 1) 0%,
-      /* Color: #3864B3 */
-      rgba(47, 85, 151, 1) 31%,
-      /* Color: #2F5597 */
-      #e9288f 83%
-      /* Color: #EC73FF */
-    );
+  background: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
   border-radius: 10px;
   width: 59px;
   height: 56px;
@@ -550,14 +503,7 @@
 }
 
 .rectangle-275 {
-  background: linear-gradient(225deg,
-      rgba(56, 100, 179, 1) 0%,
-      /* Color: #3864B3 */
-      rgba(47, 85, 151, 1) 31%,
-      /* Color: #2F5597 */
-      #e9288f 83%
-      /* Color: #EC73FF */
-    );
+  background: linear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
   border-radius: 10px;
   width: 59px;
   height: 56px;
@@ -593,14 +539,7 @@
 }
 
 .rectangle-276 {
-  background: linear-gradient(225deg,
-      rgba(56, 100, 179, 1) 0%,
-      /* Color: #3864B3 */
-      rgba(47, 85, 151, 1) 31%,
-      /* Color: #2F5597 */
-      #e9288f 83%
-      /* Color: #EC73FF */
-    );
+  background: llinear-gradient(90deg, #3C5BA4 0%, #E22A90 100%);
   border-radius: 10px;
   width: 59px;
   height: 56px;
@@ -715,7 +654,7 @@
 }
 
 .additional-text {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: bold;
   color: var(--gray-gray-700, rgb(75, 75, 75));
 }
