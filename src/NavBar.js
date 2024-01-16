@@ -33,7 +33,7 @@ const Navbar = () => {
         <Link to="/AboutUs" className="navbar-link">
           About Us
         </Link>
-        <Link to="/Documentation" className="navbar-link">
+        <Link to="https://docs.vectrflow.com/" className="navbar-link" target="_blank">
         Documentation
         </Link>
         <Link to="/pricing" className="navbar-link">
