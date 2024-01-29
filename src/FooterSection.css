@@ -1,0 +1,299 @@
+.footer-section {
+    height: 496px;
+    position: relative;
+    width: 1440px;
+}
+
+.footer-section .overlap-group {
+    height: 295px;
+    left: 105px;
+    position: absolute;
+    top: 33px;
+    width: 1230px;
+}
+
+.footer-line {
+    border-top: 1px solid #ccc;
+    /* Change the color of the line as needed */
+    margin-top: 2080px;
+    /* Adjust the top margin to control the distance from the content above */
+    margin-bottom: 20px;
+    margin-right: 140px;
+    margin-left: 0px;
+    /* Adjust the bottom margin to control the distance from the footer */
+    clear: both;
+    /* Clear any floats above to ensure proper positioning */
+}
+
+/* Your existing styles for other elements */
+/* Your existing styles for other elements */
+
+
+/* Your existing styles for other elements */
+
+/* Your existing styles for other elements */
+
+
+.footer-section .group {
+    height: 294px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 1230px;
+}
+
+.footer-section .group-wrapper {
+    height: 294px;
+}
+
+.footer-section .div {
+    height: 294px;
+    position: relative;
+    width: 1236px;
+}
+
+.footer-section .text-wrapper {
+    color: var(--graygray-600);
+    font-weight: bold;
+    font-family: var(--paragraphs-para-1-font-family);
+    font-size: var(--paragraphs-para-1-font-size);
+    font-style: var(--paragraphs-para-1-font-style);
+    /* font-weight: var(--paragraphs-para-1-font-weight); */
+    left: 0;
+    letter-spacing: var(--paragraphs-para-1-letter-spacing);
+    line-height: var(--paragraphs-para-1-line-height);
+    position: absolute;
+    top: 54px;
+    width: 372px;
+}
+
+.footer-section .about-us-services {
+    color: var(--graygray-600);
+    font-family: var(--footer-footer-links-font-family);
+    font-size: 14px;
+    /* Adjust the font size according to your preference */
+    font-style: var(--footer-footer-links-font-style);
+    font-weight: var(--footer-footer-links-font-weight);
+    letter-spacing: var(--footer-footer-links-letter-spacing);
+    line-height: 28px;
+    /* Adjust the line height according to your preference */
+    position: absolute;
+    left: 450px;
+    top: 41px;
+    width: 133px;
+}
+
+.footer-section .about-us-services a {
+    text-decoration: none;
+    color: var(--graygray-600);
+    transition: font-weight 0.3s ease;
+}
+
+.footer-section .about-us-services a:hover {
+    font-weight: bold;
+}
+
+.footer-section .group-2 {
+    height: 34px;
+    left: 1046px;
+    position: absolute;
+    top: 260px;
+    width: 184px;
+}
+
+.footer-section .facebook-wrapper {
+    background-color: var(--graygray-50);
+    border-radius: 17px;
+    box-shadow: 0px 4px 14px #00000026;
+    height: 34px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 34px;
+}
+
+.footer-section .facebook {
+    height: 12px;
+    left: 11px;
+    position: absolute;
+    top: 11px;
+    width: 12px;
+}
+
+.footer-section .instagram-wrapper {
+    background-color: var(--graygray-50);
+    border-radius: 17px;
+    box-shadow: 0px 4px 14px #00000026;
+    height: 34px;
+    left: 50px;
+    position: absolute;
+    top: 0;
+    width: 34px;
+}
+
+.footer-section .instagram {
+    height: 13px;
+    left: 11px;
+    position: absolute;
+    top: 10px;
+    width: 13px;
+}
+
+.footer-section .twitter-wrapper {
+    background-color: var(--graygray-50);
+    border-radius: 17px;
+    box-shadow: 0px 4px 14px #00000026;
+    height: 34px;
+    left: 100px;
+    position: absolute;
+    top: 0;
+    width: 34px;
+}
+
+.footer-section .twitter {
+    height: 13px;
+    left: 10px;
+    position: absolute;
+    top: 11px;
+    width: 13px;
+}
+
+.footer-section .linkedin-wrapper {
+    background-color: var(--graygray-50);
+    border-radius: 17px;
+    box-shadow: 0px 4px 14px #00000026;
+    height: 34px;
+    left: 150px;
+    position: absolute;
+    top: 0;
+    width: 34px;
+}
+
+.footer-section .linkedin {
+    height: 11px;
+    left: 11px;
+    position: absolute;
+    top: 11px;
+    width: 11px;
+}
+
+.footer-section .text-wrapper-2 {
+    color: var(--graygray-700);
+    font-family: var(--headings-headings-h5-font-family);
+    font-size: var(--headings-headings-h5-font-size);
+    font-style: var(--headings-headings-h5-font-style);
+    font-weight: bold;
+    left: 450px;
+    letter-spacing: var(--headings-headings-h5-letter-spacing);
+    line-height: var(--headings-headings-h5-line-height);
+    position: absolute;
+    top: 0;
+}
+
+.footer-section .group-3 {
+    height: 179px;
+    left: 670px;
+    position: absolute;
+    top: 0;
+    width: 312px;
+}
+
+.footer-section .p {
+    color: var(--graygray-600);
+    font-family: var(--paragraphs-para-1-font-family);
+    font-size: var(--paragraphs-para-1-font-size);
+    font-style: var(--paragraphs-para-1-font-style);
+    font-weight: var(--paragraphs-para-1-font-weight);
+    left: 0;
+    letter-spacing: var(--paragraphs-para-1-letter-spacing);
+    line-height: var(--paragraphs-para-1-line-height);
+    position: absolute;
+    top: 46px;
+    width: 306px;
+}
+
+.footer-section .element {
+    color: var(--graygray-600);
+    font-family: var(--paragraphs-para-1-font-family);
+    font-size: var(--paragraphs-para-1-font-size);
+    font-style: var(--paragraphs-para-1-font-style);
+    font-weight: var(--paragraphs-para-1-font-weight);
+    left: 0;
+    letter-spacing: var(--paragraphs-para-1-letter-spacing);
+    line-height: var(--paragraphs-para-1-line-height);
+    position: absolute;
+    top: 151px;
+    white-space: nowrap;
+    width: 151px;
+}
+
+.footer-section .text-wrapper-3 {
+    color: var(--graygray-700);
+    font-family: var(--headings-headings-h5-font-family);
+    font-size: var(--headings-headings-h5-font-size);
+    font-style: var(--headings-headings-h5-font-style);
+    font-weight: bold;
+    left: 0;
+    letter-spacing: var(--headings-headings-h5-letter-spacing);
+    line-height: var(--headings-headings-h5-line-height);
+    position: absolute;
+    top: 0;
+}
+
+.footer-section .google-page-speed {
+    height: 36px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 149px;
+    width: 233px;
+}
+
+.footer-section .element-copyright-by {
+    color: var(--graygray-700);
+    font-family: var(--footer-footer-sm-font-family);
+    font-size: var(--footer-footer-sm-font-size);
+    font-style: var(--footer-footer-sm-font-style);
+    font-weight: var(--footer-footer-sm-font-weight);
+    left: 527px;
+    letter-spacing: var(--footer-footer-sm-letter-spacing);
+    line-height: var(--footer-footer-sm-line-height);
+    position: absolute;
+    top: 365px;
+    white-space: nowrap;
+}
+
+.footer-section .line {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 408px;
+    width: 1440px;
+}
+
+.footer-section .brand-logo {
+    height: 41px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 123px !important;
+}
+
+.label {
+    height: 252px;
+    width: 133px;
+}
+
+.label .about-us-services {
+    color: #718096;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 37.8px;
+    position: fixed;
+    top: 0;
+    width: 133px;
+}

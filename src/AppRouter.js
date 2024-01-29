@@ -7,13 +7,17 @@ import Home from './App';
 import SignUp from './SignUp';
 import Pricing from './Pricing';
 import AboutUs from './AboutUs';
+import Gallery from './Gallery';
+import Blogs from './Blogs';
 const AppRoutes = () => {
     return (
         <Routes>
+            <Route path="/Blogs" element={<Blogs />} />
+            <Route path="/Gallery" element={<Gallery />} />
             <Route path="/SignIn" element={<SignIn />} />
-            <Route path="/SignUp" element={<SignUp />} /> {/* Add this line */}
-            <Route path="/Pricing" element={<Pricing />} /> {/* Add this line */}
-            <Route path="/AboutUs" element={<AboutUs />} /> {/* Add this line */}
+            <Route path="/SignUp" element={<SignUp />} />
+            <Route path="/Pricing" element={<Pricing />} />
+            <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/" element={<Home />} />
         </Routes>
     );
